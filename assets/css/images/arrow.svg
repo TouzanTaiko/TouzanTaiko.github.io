@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="36px" viewBox="0 0 18 36" zoomAndPan="disable">
-	<line x1="0" y1="0" x2="18" y2="18" style="stroke:#ffffff;stroke-width:1.5" />
-	<line x1="0" y1="36" x2="18" y2="18" style="stroke:#ffffff;stroke-width:1.5" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36px" height="18px" viewBox="0 0 36 18" zoomAndPan="disable" preserveAspectRatio="none">
+    <style type="text/css"><![CDATA[ line { stroke: #fff; stroke-width: 1; } ]]></style>
+	<line x1="0" y1="0" x2="18" y2="18" />
+	<line x1="36" y1="0" x2="18" y2="18" />
 </svg>

@@ -1,155 +1,194 @@
 /*
-	Helios by HTML5 UP
+	Landed by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 /* Basic */
 
-	a {
-		border-bottom: solid 1px #ddd;
+	body {
+		color: #ffffff;
+	}
+
+	body, html, #page-wrapper {
+		height: 100%;
+	}
+
+	blockquote {
+		border-left: solid 4px #606067;
+	}
+
+	code {
+		background: #32333b;
 	}
 
 	hr {
-		border-top: solid 1px #777;
-		border-bottom: solid 1px #777;
+		border-bottom: solid 1px #606067;
 	}
 
-	.timestamp {
-		color: #777;
-	}
+/* Icon */
 
-/* Section/Article */
-
-	section > .last-child, section.last-child, article > .last-child, article.last-child {
-		margin-bottom: 0;
-	}
-
-/* List */
-
-	ul.divided li {
-		border-top: solid 1px #777;
-	}
-
-	ul.menu li {
-		border-left: solid 1px #777;
-	}
-
-	ul.icons {
-		background: #333;
+	.icon.major {
 		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+/* Image */
+
+	.image {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+		.image:before {
+			display: none;
+		}
+
+		.image img {
+			position: relative;
+			-ms-behavior: url("assets/js/ie/PIE.htc");
+		}
+
+/* Form */
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select,
+	textarea {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+		input[type="text"]:focus,
+		input[type="password"]:focus,
+		input[type="email"]:focus,
+		select:focus,
+		textarea:focus {
+			-ms-behavior: url("assets/js/ie/PIE.htc");
+		}
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"] {
+		line-height: 3em;
+	}
+
+	input[type="checkbox"],
+	input[type="radio"] {
+		font-size: 3em;
+	}
+
+		input[type="checkbox"] + label:before,
+		input[type="radio"] + label:before {
+			display: none;
+		}
+
+/* Table */
+
+	table tbody tr {
+		border: solid 1px #606067;
+	}
+
+	table thead {
+		border-bottom: solid 1px #606067;
+	}
+
+	table tfoot {
+		border-top: solid 1px #606067;
+	}
+
+	table.alt tbody tr td {
+		border: solid 1px #606067;
 	}
 
 /* Button */
 
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
 	.button {
+		border: solid 1px #ffffff !important;
+	}
+
+		input[type="submit"].special,
+		input[type="reset"].special,
+		input[type="button"].special,
+		.button.special {
+			border: 0 !important;
+		}
+
+/* Goto Next */
+
+	.goto-next {
+		display: none;
+	}
+
+/* Spotlight */
+
+	.spotlight {
+		height: 100%;
+	}
+
+		.spotlight .content {
+			background: #272833;
+		}
+
+/* Wrapper */
+
+	.wrapper.style2 input[type="text"]:focus,
+	.wrapper.style2 input[type="password"]:focus,
+	.wrapper.style2 input[type="email"]:focus,
+	.wrapper.style2 select:focus,
+	.wrapper.style2 textarea:focus {
+		border-color: #ffffff;
+	}
+
+	.wrapper.style2 input[type="submit"].special:hover, .wrapper.style2 input[type="submit"].special:active,
+	.wrapper.style2 input[type="reset"].special:hover,
+	.wrapper.style2 input[type="reset"].special:active,
+	.wrapper.style2 input[type="button"].special:hover,
+	.wrapper.style2 input[type="button"].special:active,
+	.wrapper.style2 .button.special:hover,
+	.wrapper.style2 .button.special:active {
+		color: #e44c65 !important;
+	}
+
+/* Dropotron */
+
+	.dropotron {
+		background: #272833;
+		box-shadow: none !important;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-/* Icons */
+		.dropotron > li a, .dropotron > li span {
+			color: #ffffff !important;
+		}
 
-	.icon.circled {
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
+		.dropotron.level-0 {
+			margin-top: 0;
+		}
+
+			.dropotron.level-0:before {
+				display: none;
+			}
 
 /* Header */
 
 	#header {
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+		background: #272833;
 	}
 
-	body.homepage #header {
-		height: auto;
-		min-height: 0;
-		padding: 12em 0 12em 0;
+/* Banner */
+
+	#banner {
+		height: 100%;
 	}
 
-		body.homepage #header:after {
-			display: none;
+		#banner:before {
+			height: 100%;
 		}
 
-/* Nav */
-
-	#nav > ul:before, #nav > ul:after {
-		border-top: solid 1px #777;
-		border-bottom: solid 1px #777;
-	}
-
-	#nav > ul > li {
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-		#nav > ul > li.active {
-			border-color: #999;
+		#banner:after {
+			background-image: url("images/ie/banner-overlay.png");
 		}
-
-	.dropotron {
-		background: #fff;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-		.dropotron li {
-			border-color: #eee;
-			padding-right: 1em;
-			color: #5b5b5b;
-		}
-
-		.dropotron.level-0 {
-			box-shadow: none !important;
-			margin-top: 1em;
-		}
-
-/* Carousel */
-
-	.carousel .forward, .carousel .backward {
-		border-radius: 100%;
-		background-color: #483949;
-		width: 7em;
-		height: 7em;
-		margin-top: -3.5em;
-		border-radius: 100%;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-		.carousel .forward:before, .carousel .backward:before {
-			display: none;
-		}
-
-	.carousel .forward {
-		right: -3.5em;
-	}
-
-	.carousel .backward {
-		left: -3.5em;
-	}
-
-/* Footer */
-
-	#footer ul.divided li {
-		border-color: #3B373C;
-	}
-
-	#footer ul.menu li {
-		border-color: #3B373C;
-	}
-
-	#footer hr {
-		border-color: #3B373C;
-	}
-
-	#footer .icons {
-		background: #2F2930;
-	}
-
-	#footer .copyright {
-		color: #777;
-	}
-
-		#footer .copyright a {
-			color: #aaa;
-			border: 0;
-		}
-
-			#footer .copyright a:hover {
-				color: #ccc;
-			}
