@@ -189,12 +189,12 @@ hr.colored {
   border-color: rgba(255, 255, 255, 0.5);
 }
 .navbar-inverse {
-  background-color: #222;
+  background-color: #111;
 }
 .navbar-default,
 .navbar-inverse {
   border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: none;
 }
 .navbar-default .navbar-toggle,
 .navbar-inverse .navbar-toggle {
