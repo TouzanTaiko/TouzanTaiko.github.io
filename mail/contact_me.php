@@ -14,7 +14,8 @@ $name = $_POST['name'];
 $email_address = $_POST['email'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
-	
+
+
 // create email body and send it	
 $to = 'YOUR-EMAIL-ADDRESS@YOUR-DOMAIN.com'; // *REPLACE WITH THE EMAIL ADDRESS YOU WANT THE FORM TO SEND MAIL TO*
 $email_subject = "Website Contact Form:  $name";
